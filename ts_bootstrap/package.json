@@ -1,0 +1,21 @@
+{
+  "name": "ts_bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"npm start\"",
+    "start": "node ./dist/example.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.3",
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.5.5"
+  }
+}
